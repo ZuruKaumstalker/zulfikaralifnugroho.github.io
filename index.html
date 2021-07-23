@@ -6,32 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Bangun Sinergi Umat</title>
     <link rel="shortcut icon" href="img/logo_basma.jpg" />
+   
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
+  
   </head>
-  <body>
+  <body id="home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-light warna shadow-sm fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"> <img src="img/logo_basma.jpg" alt="" width="50" height="40" class="d-inline-block align-middle me-2" />Bangun Sinergi Umat </a>
+        <a class="navbar-brand" href="#home"> <img src="img/logo_basma.jpg" alt="" width="50" height="40" class="d-inline-block align-middle me-2" />Bangun Sinergi Umat </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Tentang Kami</a>
+              <a class="nav-link" href="#about">Tentang Kami</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Kegiatan</a>
+              <a class="nav-link" href="#kegiatan">Kegiatan</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Kontak</a>
+              <a class="nav-link" href="#kontak">Kontak</a>
             </li>
           </ul>
         </div>
@@ -48,7 +54,7 @@
       <path
         fill="#b3ffb3"
         fill-opacity="1"
-        d="M0,64L21.8,101.3C43.6,139,87,213,131,224C174.5,235,218,181,262,149.3C305.5,117,349,107,393,112C436.4,117,480,139,524,138.7C567.3,139,611,117,655,101.3C698.2,85,742,75,785,74.7C829.1,75,873,85,916,101.3C960,117,1004,139,1047,149.3C1090.9,160,1135,160,1178,160C1221.8,160,1265,160,1309,149.3C1352.7,139,1396,117,1418,106.7L1440,96L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"
+        d="M0,128L48,144C96,160,192,192,288,208C384,224,480,224,576,192C672,160,768,96,864,96C960,96,1056,160,1152,176C1248,192,1344,160,1392,144L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
       ></path>
     </svg>
     <!-- Akhir Jumbotron -->
@@ -56,22 +62,117 @@
     <!-- About -->
     <section id="about">
       <div class="container">
-        <div class="row text-center">
+        <div class="row text-center mb-3">
           <div class="col">
             <h2>Tentang Kami</h2>
           </div>
-          <div class="row">
-            <div class="col">
+        </div>
+          <div class="row justify-content-center text-center fs-5">
+            <div class="col-md-4">
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem autem quo ex ipsa inventore nihil iste vel sapiente recusandae. Suscipit?</p>
             </div>
-            <div class="col">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ad officia iste magni voluptatem perspiciatis sapiente, praesentium temporibus sit voluptatum? Voluptate aspernatur delectus eaque quisquam quae soluta?</p>
+            <div class="col-md-4">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ad officia iste magni voluptatem perspiciatis sapiente, praesentium temporibus sit voluptatum?</p>
             </div>
           </div>
         </div>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L48,186.7C96,181,192,171,288,181.3C384,192,480,224,576,208C672,192,768,128,864,122.7C960,117,1056,171,1152,197.3C1248,224,1344,224,1392,224L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     </section>
     <!-- Akhir About -->
+
+    <!-- Kegiatan -->
+    <section id="kegiatan">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Kegiatan Kami</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/a.jpg" class="card-img-top" alt="Kegiatan1">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/b.jpg" class="card-img-top" alt="Kegiatan2">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/c.jpg" class="card-img-top" alt="Kegiatan3">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/d.jpg" class="card-img-top" alt="Kegiatan4">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/e.jpg" class="card-img-top" alt="Kegiatan5">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#b3ffb3" fill-opacity="1" d="M0,128L40,133.3C80,139,160,149,240,181.3C320,213,400,267,480,266.7C560,267,640,213,720,197.3C800,181,880,203,960,197.3C1040,192,1120,160,1200,154.7C1280,149,1360,171,1400,181.3L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+    </section>
+    <!-- Akhir Kegiatan -->
+
+    <!-- Kontak -->
+    <section id="kontak">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Kontak Kami</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email">
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,96L48,106.7C96,117,192,139,288,138.7C384,139,480,117,576,112C672,107,768,117,864,112C960,107,1056,85,1152,74.7C1248,64,1344,64,1392,64L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+    <!-- Akhir Kontak -->
+
+    <!-- Footer -->
+    <footer class="text-center">
+      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/zulfikaralifn/" class="fw-bold">Zulfikar Alif Nugroho</a></p>
+    </footer>
+    <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
