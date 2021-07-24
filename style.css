@@ -1,6 +1,15 @@
 body {
   min-height: 2980px;
 }
+.dark-mode {
+  background-color: #2a2f32;
+  color: #b3ffb3;
+}
+
+/* width Scrollbar */
+::-webkit-scrollbar {
+  width: 0px;
+}
 
 .warna {
   background-color: white;
@@ -19,7 +28,43 @@ section {
 }
 
 #kegiatan img {
-  height: 250px;
+  height: 200px;
+}
+.img-hover-zoom {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.img-hover-zoom img {
+  transition: transform 1s ease;
+  width: 100%;
+  opacity: 1;
+}
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+.img-hover-zoom:hover .middle {
+  opacity: 1;
+}
+.middle {
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  color: white;
+  font-size: 20px;
 }
 
 #kontak {
