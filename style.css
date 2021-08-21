@@ -1,5 +1,5 @@
 body {
-  min-height: 2980px;
+  min-height: 1200px;
 }
 .dark-mode {
   background-color: #2a2f32;
@@ -21,10 +21,6 @@ section {
 
 .jumbotron {
   padding-top: 7rem;
-}
-
-#about {
-  background-color: #b3ffb3;
 }
 
 #kegiatan img {
@@ -65,8 +61,4 @@ section {
 .text {
   color: white;
   font-size: 20px;
-}
-
-#kontak {
-  background-color: #b3ffb3;
 }
