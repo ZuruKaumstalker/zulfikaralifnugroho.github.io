@@ -1,9 +1,14 @@
+* {
+  font-family: Century Gothic;
+}
+
 body {
   min-height: 1200px;
+  color: #008c8c;
 }
 .dark-mode {
-  background-color: #2a2f32;
-  color: #b3ffb3;
+  background-color: #008c8c;
+  color: white;
 }
 
 /* width Scrollbar */
