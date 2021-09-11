@@ -1,5 +1,5 @@
 * {
-  font-family: Century Gothic;
+  font-family: Nyala, Maiandra GD, Century Gothic, Estrangelo Edessa;
 }
 
 body {
@@ -28,9 +28,19 @@ section {
   padding-top: 7rem;
 }
 
-#kegiatan img {
-  height: 200px;
+.zulfikar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
+.zulfikar h1 {
+  font-size: 60px;
+}
+.zulfikar img {
+  width: 180px;
+  height: 190px;
+}
+
 .img-hover-zoom {
   width: 100%;
   overflow: hidden;
@@ -66,4 +76,17 @@ section {
 .text {
   color: white;
   font-size: 20px;
+}
+
+.sisi {
+  display: flex;
+  background-color: lavender;
+}
+
+.kiri {
+  width: 550px;
+}
+
+.kanan {
+  width: 550px;
 }
