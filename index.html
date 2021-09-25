@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Zulfikar Alif Nugroho</title>
-  <link rel="shortcut icon" href="img/nobackground.png" />
+  <link rel="shortcut icon" href="img/logozan.png" />
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -21,64 +21,61 @@
 </head>
 
 <body id="home">
-  <div class="form-check form-switch ms-3 mt-1">
-    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onclick="myFunction()">
-    <label class="form-check-label" for="flexSwitchCheckDefault">Ubah Tema</label>
-  </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="img/logozan.png" alt="Logo_Zulfikar" width="100"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" href="#about">About Me</a>
+          <a class="nav-link" href="#myproject">My Project</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </div>
+        <div class="form-check form-switch ms-3 mt-1 font-nav">
+          <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onclick="myFunction()">
+          <label class="form-check-label" for="flexSwitchCheckDefault">Dark Mode</label>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+  <!-- Akhir Navbar -->
 
   <!-- Jumbotron -->
-  <section class="jumbotron text-center">
-    <h1 class="display-4"><span id="typed"></span></h1>
-  </section>
-  <!-- Akhir Jumbotron -->
+  <div class="zulfikar mb-3">
+    <img src="img/nobackground.png" class="border border-3 border-secondary rounded-circle" alt="Foto_Profil_Zulfikar">
+    <section class="jumbotron text-center">
+      <h1 class="display-4">Hello, I’m Zulfikar Alif Nugroho</h1>
+      <!-- <span id="typed"></span> -->
+      <h1 class="display-4">21 Years Old and Student</h1>
+    </section>
+  </div>
+  <!-- AkhirJumbotron -->
 
   <!-- About -->
   <section id="about">
     <div class="container">
-      <div class="row text-center mb-3">
-        <div class="col">
-          <h2>CURRICULUM VITAE</h2>
-        </div>
-      </div>
-      <div class="zulfikar mb-3">
-        <img src="img/nobackground.png" class="border border-3 border-secondary rounded-circle"
-          alt="Foto_Profil_Zulfikar">
-        <h1>Zulfikar Alif Nugroho</h1>
-      </div>
       <div class="row justify-content-center text-center fs-5 sisi">
         <div class="col-md-4 kiri">
-          <h1>Informasi Pribadi</h1>
+          <h1>Education</h1>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem autem quo ex ipsa inventore nihil iste
             vel sapiente recusandae. Suscipit?</p>
         </div>
         <div class="col-md-4 kanan">
-          <h1>Pendidikan</h1>
+          <h1>Work Experience</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ad officia iste magni voluptatem perspiciatis
             sapiente, praesentium temporibus sit voluptatum?</p>
         </div>
       </div>
       <div class="row justify-content-center text-center fs-5 sisi">
         <div class="col-md-4 kiri">
-          <h1>Kontak</h1>
+          <h1>Skills</h1>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem autem quo ex ipsa inventore nihil iste
             vel sapiente recusandae. Suscipit?</p>
-        </div>
-        <div class="col-md-4 kanan">
-          <h1>Pengalaman Kerja</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ad officia iste magni voluptatem perspiciatis
-            sapiente, praesentium temporibus sit voluptatum?</p>
-        </div>
-      </div>
-      <div class="row justify-content-center text-center fs-5 sisi">
-        <div class="col-md-4 kiri">
-          <h1>Kepribadian</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem autem quo ex ipsa inventore nihil iste
-            vel sapiente recusandae. Suscipit?</p>
-        </div>
-        <div class="col-md-4 kanan">
-          <h1>Keahlian</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ad officia iste magni voluptatem perspiciatis
-            sapiente, praesentium temporibus sit voluptatum?</p>
         </div>
       </div>
     </div>
@@ -86,10 +83,26 @@
   </section>
   <!-- Akhir About -->
 
+  <!-- Contact -->
+  <section id="myproject">
+    <h1 class="text-center">My Project</h1>
+  </section>
+  <!-- Akhir Contact -->
+
+  <!-- Contact -->
+  <section id="contact">
+    <h1 class="text-center">Contact</h1>
+  </section>
+  <!-- Akhir Contact -->
+
+  <!-- <a href="https://www.instagram.com/zulfikaralifn/" target="_blank" class="fw-bold">Zulfikar Alif Nugroho</a> -->
+
+  <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out"
+    data-abc="true"></a>
+
   <!-- Footer -->
   <footer class="text-center mt-5">
-    <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/zulfikaralifn/"
-        target="_blank" class="fw-bold">Zulfikar Alif Nugroho</a></p>
+    <p>© 2021 Zulfikar Alif Nugroho | zulfikar.alif.nugroho@gmail.com</p>
   </footer>
   <!-- Akhir Footer -->
 
@@ -104,7 +117,7 @@
     }
 
     new Typed('#typed', {
-      strings: ['السلام عليكم ورحمة الله وبركاته'],
+      strings: ['Zulfikar Alif Nugroho'],
       typeSpeed: 90,
       delaySpeed: 120,
       loop: true
