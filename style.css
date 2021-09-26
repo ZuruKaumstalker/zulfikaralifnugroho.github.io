@@ -45,7 +45,19 @@ section {
 
 .zulfikar img {
   width: 200px;
-  height: 190px;
+  height: 250px;
+}
+
+.sisi {
+  display: flex;
+}
+
+.kiri {
+  width: 550px;
+}
+
+.kanan {
+  width: 550px;
 }
 
 .img-hover-zoom {
@@ -90,20 +102,102 @@ section {
   font-size: 20px;
 }
 
-.sisi {
+.card-text {
+  color: black;
+}
+
+.name-email {
   display: flex;
 }
 
-.kiri {
-  width: 550px;
+.btn {
+  background-color: #3bb300;
+  color: white;
 }
 
-.kanan {
-  width: 550px;
+.btn:hover {
+  color: #f2f2f2;
+}
+
+.sosmed {
+  display: flex;
+  justify-content: center;
+}
+
+.instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram a {
+  text-decoration: none;
+  color: black;
+}
+
+.instagram a:hover {
+  text-decoration: underline;
+  color: #3bb300;
+}
+
+.instagram img {
+  width: 30px;
+  height: 30px;
+}
+
+.linkedin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkedin a {
+  text-decoration: none;
+  color: black;
+}
+
+.linkedin a:hover {
+  text-decoration: underline;
+  color: #3bb300;
+}
+
+.linkedin img {
+  width: 30px;
+  height: 30px;
+}
+
+.github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.github a {
+  text-decoration: none;
+  color: black;
+}
+
+.github a:hover {
+  text-decoration: underline;
+  color: #3bb300;
+}
+
+.github img {
+  width: 30px;
+  height: 30px;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  color: black;
 }
 
 #toTopBtn {
   position: fixed;
+  border-radius: 20px;
   bottom: 26px;
   right: 39px;
   z-index: 98;
