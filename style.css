@@ -3,20 +3,6 @@
 }
 
 body {
-  min-height: 1200px;
-  color: black;
-}
-
-.navbar {
-  font-weight: bold;
-}
-
-.dark-mode {
-  background-color: #0a1324;
-  color: white;
-}
-
-.font-nav {
   color: black;
 }
 
@@ -25,27 +11,41 @@ body {
   width: 0px;
 }
 
-.warna {
-  background-color: white;
+.navbar {
+  font-weight: bold;
+}
+
+.font-nav {
+  color: black;
+}
+
+.dark-mode {
+  background-color: #0a1324;
+  color: white;
 }
 
 section {
   padding-top: 5rem;
 }
 
-.zulfikar {
+.info {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
   align-items: center;
 }
 
-.zulfikar h1 {
+.info h1 {
   font-size: 60px;
+  font-weight: bold;
 }
 
-.zulfikar img {
-  width: 200px;
-  height: 250px;
+.info img {
+  margin-top: 40px;
+  margin-left: 20px;
+  width: 300px;
+  height: 350px;
+  filter: grayscale(100%);
+  border-radius: 40px;
 }
 
 .sisi {
@@ -58,6 +58,11 @@ section {
 
 .kanan {
   width: 550px;
+}
+
+#about img {
+  width: 95px;
+  height: 80px;
 }
 
 .img-hover-zoom {
@@ -106,6 +111,14 @@ section {
   color: black;
 }
 
+input[type="text"] {
+  height: 60px;
+}
+
+textarea {
+  height: 150px;
+}
+
 .name-email {
   display: flex;
 }
@@ -117,6 +130,10 @@ section {
 
 .btn:hover {
   color: #f2f2f2;
+}
+
+footer {
+  margin-top: 200px;
 }
 
 .sosmed {
@@ -192,7 +209,7 @@ footer p {
   justify-content: center;
   align-items: center;
   height: 40px;
-  color: black;
+  color: #3bb300;
 }
 
 #toTopBtn {

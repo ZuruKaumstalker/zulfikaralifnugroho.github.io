@@ -17,12 +17,11 @@
 
   <!-- My CSS -->
   <link rel="stylesheet" href="style.css" />
-
 </head>
 
 <body id="home">
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <a class="navbar-brand" href="index.html"><img src="img/logozan.png" alt="Logo_Zulfikar" width="100"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -40,42 +39,107 @@
           <label class="form-check-label" for="flexSwitchCheckDefault">Dark Mode</label>
         </div>
       </div>
-
     </div>
   </nav>
   <!-- Akhir Navbar -->
 
   <!-- Jumbotron -->
-  <div class="zulfikar mb-3">
-    <img src="img/foto3.png" class="" alt="Foto_Profil_Zulfikar">
-    <section class="jumbotron text-center">
-      <h1 class="display-4">Hello, I’m Zulfikar Alif Nugroho</h1>
+  <div class="info mt-5">
+    <img src="img/foto7.jpg" alt="Foto_Profil_Zulfikar">
+    <p class="text-center">
+      <h1>Hello, I’m Zulfikar Alif Nugroho</h1>
       <!-- <span id="typed"></span> -->
-      <h1 class="display-4">21 Years Old and Fresh Graduate</h1>
-    </section>
+      <h1>21 Years Old and Fresh Graduate</h1>
+    </p>
   </div>
-  <!-- AkhirJumbotron -->
+  <!-- Akhir Jumbotron -->
 
   <!-- About -->
   <section id="about">
     <div class="container">
+      <div class="col">
+        <h1 class="text-center mb-5">About Me</h1>
+      </div>
       <div class="row justify-content-center text-center fs-5 sisi">
         <div class="col-md-4 kiri">
-          <h1>Education</h1>
+          <h2>Education</h2>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem autem quo ex ipsa inventore nihil iste
             vel sapiente recusandae. Suscipit?</p>
         </div>
         <div class="col-md-4 kanan">
-          <h1>Work Experience</h1>
+          <h2>Work Experience</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ad officia iste magni voluptatem perspiciatis
             sapiente, praesentium temporibus sit voluptatum?</p>
         </div>
       </div>
       <div class="row justify-content-center text-center fs-5 sisi">
-        <div class="col-md-4 kiri">
-          <h1>Skills</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem autem quo ex ipsa inventore nihil iste
-            vel sapiente recusandae. Suscipit?</p>
+        <div class="col-md-4 kiri mt-5">
+          <h2>Skills</h2>
+          <div class="row mt-2 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card shadow">
+                <div class="card-body">
+                  <img src="img/html5.png" alt="Html5">
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow">
+                <div class="card-body">
+                  <img src="img/css3.png" alt="CSS3">
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow">
+                <div class="card-body">
+                  <img src="img/js.png" alt="Javascript">
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow">
+                <div class="card-body">
+                  <img src="img/php.png" alt="PHP">
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow">
+                <div class="card-body">
+                  <img src="img/mysql.png" alt="MySQL">
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow">
+                <div class="card-body">
+                  <img src="img/bootstrap.png" alt="bootstrap">
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow">
+                <div class="card-body">
+                  <img src="img/office.png" alt="Microsoft Office">
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow">
+                <div class="card-body">
+                  <img src="img/photoshop.png" alt="Adobe photoshop">
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow">
+                <div class="card-body">
+                  <img src="img/figma.svg" alt="Figma">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -152,14 +216,14 @@
       <div class="col-md-6">
         <form action="">
           <div class="mb-3 name-email">
-            <input type="text" class="form-control me-2" id="name" placeholder="Name">
-            <input type="email" class="form-control" id="email" placeholder="Email">
+            <input type="text" class="form-control me-2" id="name" placeholder="Name" required autocomplete="off">
+            <input type="email" class="form-control" id="email" placeholder="Email" required autocomplete="off">
           </div>
           <div class="mb-3">
-            <input type="text" class="form-control" id="subject" placeholder="Subject">
+            <input type="text" class="form-control" id="subject" placeholder="Subject" required autocomplete="off">
           </div>
           <div class="mb-3">
-            <textarea class="form-control" id="message" rows="3" placeholder="Message"></textarea>
+            <textarea class="form-control" id="message" rows="3" placeholder="Message" required></textarea>
           </div>
           <button type="submit" class="btn">Send Message</button>
         </form>
@@ -169,7 +233,7 @@
   <!-- Akhir Contact -->
 
   <!-- Footer -->
-  <footer class="text-center mt-5">
+  <footer class="text-center">
     <div class="sosmed">
       <div class="instagram me-5">
         <a href="https://www.instagram.com/zulfikaralifn/" target="_blank">
@@ -202,9 +266,10 @@
       </div>
       <br>
     </div>
-    <p class="mt-5 bg-light">© 2021 Zulfikar Alif Nugroho | zulfikar.alif.nugroho@gmail.com</p>
+    <p class="mt-5">© 2021 Zulfikar Alif Nugroho | zulfikar.alif.nugroho@gmail.com</p>
   </footer>
   <!-- Akhir Footer -->
+
 
   <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out"
     data-abc="true"></a>
@@ -212,13 +277,17 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
   </script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
+
   <script>
+    // Dark Mode
     function myFunction() {
       var element = document.body;
       element.classList.toggle("dark-mode");
     }
 
+    // Typewriter.js
     new Typed('#typed', {
       strings: ['Zulfikar Alif Nugroho'],
       typeSpeed: 90,
