@@ -53,6 +53,11 @@ section {
   border-radius: 40px;
 }
 
+.info img:hover {
+  filter: none;
+  cursor: crosshair;
+}
+
 .sisi {
   display: flex;
 }
@@ -145,12 +150,12 @@ footer {
 
 .instagram a {
   text-decoration: none;
-  color: black;
+  color: #6C757D;
 }
 
 .instagram a:hover {
   text-decoration: underline;
-  color: #3bb300;
+  color: #333333;
 }
 
 .instagram img {
@@ -166,12 +171,12 @@ footer {
 
 .linkedin a {
   text-decoration: none;
-  color: black;
+  color: #6C757D;
 }
 
 .linkedin a:hover {
   text-decoration: underline;
-  color: #3bb300;
+  color: #333333;
 }
 
 .linkedin img {
@@ -187,12 +192,12 @@ footer {
 
 .github a {
   text-decoration: none;
-  color: black;
+  color: #6C757D;
 }
 
 .github a:hover {
   text-decoration: underline;
-  color: #3bb300;
+  color: #333333;
 }
 
 .github img {
@@ -205,7 +210,7 @@ footer p {
   justify-content: center;
   align-items: center;
   height: 40px;
-  color: #3bb300;
+  color: #6C757D;
 }
 
 #toTopBtn {
@@ -215,7 +220,7 @@ footer p {
   right: 39px;
   z-index: 98;
   padding: 21px;
-  background-color: #3bb300;
+  background-color: #6C757D;
 }
 
 .js .cd-top--fade-out {
