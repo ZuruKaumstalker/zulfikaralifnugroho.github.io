@@ -128,15 +128,6 @@ textarea {
   display: flex;
 }
 
-.btn {
-  background-color: #3bb300;
-  color: white;
-}
-
-.btn:hover {
-  color: #f2f2f2;
-}
-
 footer {
   margin-top: 200px;
 }
