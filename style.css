@@ -1,9 +1,7 @@
-* {
-  font-family: Estrangelo Edessa, Century Gothic, Nyala, Maiandra GD;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Patrick+Hand&family=Poppins:wght@600&display=swap');
 
-body {
-  color: black;
+* {
+  font-family: 'Lexend', 'Patrick Hand', 'Poppins', Sakkal Majalla, Century Gothic, Maiandra GD;
 }
 
 /* width Scrollbar */
@@ -12,16 +10,12 @@ body {
 }
 
 .navbar {
-  font-weight: bold;
-  background-color: white;
+  color: black;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
 }
 
 .container img {
   width: 80px;
-}
-
-.font-nav {
-  color: black;
 }
 
 .dark-mode {
@@ -68,6 +62,10 @@ section {
 
 .kanan {
   width: 550px;
+}
+
+#about {
+  margin-top: 40px;
 }
 
 #about img {
