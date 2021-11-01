@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Patrick+Hand&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap');
 
 * {
-  font-family: 'Lexend', 'Patrick Hand', 'Poppins', Sakkal Majalla, Century Gothic, Maiandra GD;
+  font-family: 'Lexend', Sakkal Majalla, Century Gothic, Maiandra GD;
 }
 
 /* width Scrollbar */
