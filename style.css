@@ -10,12 +10,12 @@
 }
 
 .navbar {
-  color: black;
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  background-color: #99ACCF;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .container img {
-  width: 80px;
+  height: 200px;
 }
 
 .dark-mode {
@@ -36,6 +36,7 @@ section {
   margin-left: 35px;
   font-size: 57px;
   font-weight: bold;
+  color: #B8C5DD;
 }
 
 .info img {
@@ -43,13 +44,7 @@ section {
   margin-left: 40px;
   width: 450px;
   height: 500px;
-  filter: grayscale(100%);
-  border-radius: 40px;
-}
-
-.info img:hover {
-  filter: none;
-  cursor: crosshair;
+  border-radius: 100%;
 }
 
 .sisi {
@@ -65,12 +60,21 @@ section {
 }
 
 #about {
-  margin-top: 40px;
+  color: #9aa5bb;
 }
 
 #about img {
   width: 95px;
   height: 80px;
+}
+
+.btn-baru {
+  background-color: #B8C5DD;
+  color: white;
+}
+
+.btn-baru:hover {
+  color: white;
 }
 
 .img-hover-zoom {
@@ -115,8 +119,20 @@ section {
   font-size: 20px;
 }
 
+#myproject {
+  color: #9aa5bb;
+}
+
 .card-text {
-  color: black;
+  color: #9aa5bb;
+}
+
+#contact {
+  color: #9aa5bb;
+}
+
+.name-email {
+  display: flex;
 }
 
 input[type="text"] {
@@ -127,8 +143,14 @@ textarea {
   height: 150px;
 }
 
-.name-email {
-  display: flex;
+.btn-kirim {
+  background-color: #9aa5bb;
+  color: white;
+}
+
+.btn-kirim:hover {
+  background-color: #a8b3cc;
+  color: white;
 }
 
 footer {
@@ -148,7 +170,7 @@ footer {
 
 .instagram a {
   text-decoration: none;
-  color: #6C757D;
+  color: #9aa5bb;
 }
 
 .instagram a:hover {
@@ -169,7 +191,7 @@ footer {
 
 .linkedin a {
   text-decoration: none;
-  color: #6C757D;
+  color: #9aa5bb;
 }
 
 .linkedin a:hover {
@@ -190,7 +212,7 @@ footer {
 
 .github a {
   text-decoration: none;
-  color: #6C757D;
+  color: #9aa5bb;
 }
 
 .github a:hover {
@@ -208,7 +230,7 @@ footer p {
   justify-content: center;
   align-items: center;
   height: 40px;
-  color: #6C757D;
+  color: #9aa5bb;
 }
 
 #toTopBtn {
@@ -218,7 +240,11 @@ footer p {
   right: 39px;
   z-index: 98;
   padding: 21px;
-  background-color: #6C757D;
+  background-color: #9aa5bb;
+}
+
+#toTopBtn:hover {
+  bottom: 20px;
 }
 
 .js .cd-top--fade-out {
@@ -247,8 +273,12 @@ footer p {
   height: var(--cd-back-to-top-size);
   width: 40px;
   width: var(--cd-back-to-top-size);
-  box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
   background-color: #0a1324;
   background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8)
+}
+
+.cd-top:hover {
+  box-shadow: none;
 }
